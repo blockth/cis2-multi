@@ -150,6 +150,7 @@ enum CustomContractError {
     ContractOnly,
     /// Failed to invoke a contract.
     InvokeContractError,
+    TokenAlreadyMinted,
 }
 
 type ContractError = Cis2Error<CustomContractError>;
